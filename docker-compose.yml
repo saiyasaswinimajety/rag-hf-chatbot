@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rag-chatbot:
+    build: .
+    container_name: rag-hf-chatbot
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./cache:/app/cache
+      - ./uploaded_docs:/app/uploaded_docs
+    restart: unless-stopped
