@@ -122,3 +122,4 @@ class FAISSVectorStore:
         if os.path.exists(docs_path):
             with open(docs_path, "rb") as f:
                 self.documents = pickle.load(f)
+
