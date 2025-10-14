@@ -170,3 +170,4 @@ else:
         st.info("👆 Welcome! To begin, click 'Load Sample Technical Manual' in the sidebar or upload your own PDF/text document.")
     else:
         st.write("Type a question above to test semantic similarity search and answer synthesis across all indexed documents.")
+
