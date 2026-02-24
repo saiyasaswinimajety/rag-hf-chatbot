@@ -169,3 +169,4 @@ pytest -v --durations=10
 ## 📄 License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+
